@@ -48,13 +48,15 @@ dataset/
 *.npy
 *.mat
 
-# Output files (keep demo videos, exclude generated outputs)
+# Output files (keep demo videos and demo image, exclude generated outputs)
 demo.avi
-image/
+image/*
+!image/demo.jpeg
 save_file/
 *.jpg
 *.jpeg
 *.png
+!image/demo.jpeg
 
 # Note: Video files in video/ directory are included for demo purposes
 
