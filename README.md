@@ -19,6 +19,19 @@ This project implements FIDTM-based crowd counting and localization, which is pa
 - **Video demo**: Real-time processing on video streams with optimized performance
 - **GPU/CPU support**: Automatic device detection with CUDA support
 
+## Demo
+
+### Sample Output
+
+The model processes videos and images, providing:
+
+- **Crowd count**: Accurate estimation displayed on the output
+- **Density visualization**: Optional density map overlay (disabled by default in video demo)
+
+![Demo Output](image/demo.jpeg)
+
+*Example: Crowd counting on a dense crowd scene. The green text shows the estimated count.*
+
 ## Project Structure
 
 ```
@@ -225,19 +238,6 @@ python video_demo.py --video_path ./video/video1_24fps.mp4 --pre ./save_file/A_b
 - Input: Video file (e.g., `./video/video1_24fps.mp4`)
 - Output: `./demo.avi` with crowd count overlay
 - Snapshot: `./image/demo.jpeg` (saved every 10 frames)
-
-## Demo
-
-### Sample Output
-
-The model processes videos and images, providing:
-
-- **Crowd count**: Accurate estimation displayed on the output
-- **Density visualization**: Optional density map overlay (disabled by default in video demo)
-
-![Demo Output](image/demo.jpeg)
-
-*Example: Crowd counting on a dense crowd scene. The green text shows the estimated count.*
 
 ## Model Limitations
 
