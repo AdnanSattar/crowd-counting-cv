@@ -77,23 +77,6 @@ The model processes videos and images, providing:
 - GPU/CPU support with automatic device detection
 - Optimized video processing for large files
 
-## Citation
-
-If you use this code in your research, please cite the original FIDTM paper:
-
-```bibtex
-@article{fidtm2021,
-  title={FIDTM: Focal Inverse Distance Transform Maps for Crowd Localization and Counting},
-  author={...},
-  journal={...},
-  year={2021}
-}
-```
-
-## License
-
-[Add your license here]
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
